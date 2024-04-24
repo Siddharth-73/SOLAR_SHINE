@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ABOUT-SOLAR-SHINE</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+<!--Header-->
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="./image_forweb/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="index.html">OUR TEAM</a></li>
+                    <li><a href="join.html">PARTNER WITH US</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+<!---About Us Content-->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>What We do?</h1>
+            <p>Solar energy has emerged as a pivotal solution in the global pursuit of sustainable energy sources. With its abundant availability and eco-friendly characteristics, solar power offers immense potential for reducing carbon emissions and mitigating climate change. However, the upfront costs associated with solar panel installation have been a barrier for many individuals and businesses. To address this issue and accelerate the adoption of solar energy, governments and organizations worldwide have implemented subsidy programs aimed at incentivizing solar panel installations.</p>
+            <a href="join.html" class="hero-btn red-btn">JOIN US</a>
+        </div>
+        <div class="about-col">
+            <img src="./image_forweb/team.avif" alt="aboutimage">
+        </div>
+    </div>
+</section>
+
+<!---Footer-->
+<section class="footer">
+    <p>THANK YOU!</p>
+</section>
+
+<!---Javascript for toggle menu responsive----> 
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu(){
+            navlink.style.right="0";
+        }
+        function hidemenu(){
+            navlink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOLAR-SHINE</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./image_forweb/logo.png" alt="logo"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="NEWS.html">NEWS</a></li>
+                    <li><a href="join.html">PARTNER WITH US</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                    <li><a href="About.html">ABOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+<div class="text-box">
+    <h1>SOLAR-SHINE</h1>
+    <p> "Empowering the world with solar energy, one panel at a time."</p>
+    <a href="./NEWS.html" class="hero-btn">EXPLORE MORE</a>
+</div>
+
+    </section>
+<!---features--->
+<section class="features">
+    <h1>OUR SOLAR SOLUTION</h1>
+    <p>"Welcome to Solar Shine,<BR> Where we believe in harnessing the power of the sun to create a brighter tomorrow. Join us on our mission to revolutionize the way we power our world, one solar panel at a time."</p>
+    <div class="row">
+        <div class="features-col">
+            <h3> HOMES </h3>
+            <p>Experience sustainable living with our home solar solutions,<br> powering your life with clean energy.</p>
+        </div>
+
+        <div class="features-col">
+            <h3>HOUSING SOCIETY</h3>
+            <p>Elevate your housing society with our comprehensive,<br> solar solutions for sustainable energy.</p>
+        </div>
+
+        <div class="features-col">
+            <h3>COMMERCIALS</h3>
+            <p> Boost your business with efficient,<br>cost-effective solar solutions for commercial spaces.</p>
+        </div>
+
+    </div>
+</section>
+
+<!--Goal-->
+
+<section class="goal">
+    <h1>Our Goal</h1>
+    <p>"Our goal is to drive the widespread adoption of solar energy by making it accessible and affordable for all, empowering communities to embrace renewable energy solutions and create a sustainable future."</p>
+
+    <div class="row">
+        <div class="goal-col">
+            <img src="./image_forweb/ivan-torres-AXz346Rhs6A-unsplash.jpg">
+            <div class="layer">
+                <h3>NATURE</h3>
+            </div>
+        </div>
+        <div class="goal-col">
+            <img src="./image_forweb/inno5.avif">
+            <div class="layer">
+                <h3>RESILIENCE</h3>
+            </div>
+        </div>
+        <div class="goal-col">
+            <img src="./image_forweb/shane-rounce-DNkoNXQti3c-unsplash.jpg">
+            <div class="layer">
+                <h3>SUSTAINABLITY</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!---team-->
+<section class="team">
+    <h1>Our Team</h1>
+    <p>Dedicated to illuminating communities sustainably,<BR> with expertise in solar solutions for a brighter future.</p>
+
+    <div class="row">
+        <div class="team-col">
+            <!-- <img src="./image_forweb/men1.avif"> -->
+            <h3>Siddharth Sharma</h3>
+        </div>
+        <div class="team-col">
+            <!-- <img src="./image_forweb/men2.avif"> -->
+            <h3>Mahek Singh</h3>
+        </div>
+        <div class="team-col">
+            <!-- <img src="./image_forweb/men2.avif"> -->
+            <h3>Shristy Shahi</h3>
+        </div>
+    </div>
+</section>
+
+<!--Call to action-->
+
+<section class="cta">
+    <h1>Light up your world today!<BR> Contact us for sustainable solar solutions.</h1>
+    <a href="contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!---Footer-->
+<section class="footer">
+    <h2>About Us</h2>
+    <p>We provide tailored solar solutions for homes, societies, and commercial spaces, ensuring sustainability and efficiency.</p>
+    <p>THANK YOU!</p>
+</section>
+
+<!---Javascript for toggle menu responsive----> 
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showmenu(){
+            navlink.style.right="0";
+        }
+        function hidemenu(){
+            navlink.style.right="-200px";
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
